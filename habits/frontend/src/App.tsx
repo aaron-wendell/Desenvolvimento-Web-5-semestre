@@ -1,6 +1,12 @@
+import { Habit } from "./components/Habit";
+import './styles/global.css'
 function App() {
-  return (
-  <h1> Hello World </h1>
-  )
- }
- export default App
+ return (
+ <>
+ <Habit completed={2}/>
+ <Habit completed={1}/>
+ <Habit completed={0}/>
+ </>
+ )
+}
+export default App
